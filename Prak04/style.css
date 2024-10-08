@@ -1,0 +1,52 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f4e5e5;
+    background-image: url(https://i.pinimg.com/736x/2d/69/d1/2d69d1d723a3d2c0df573edd6273e779.jpg);
+    background-size: cover;
+    }
+h1 {
+    text-align: center;
+    color: rgb(132, 196, 196);
+    }
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(132, 196, 196);
+    font-size: x-large;
+    }
+#task-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    }
+#add-task-btn {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    }
+ul {
+    list-style-type: none;
+    padding: 0;
+    }
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ffc4dd;
+    }
+li.completed {
+    text-decoration: line-through;
+    }
+ul li:nth-child(odd) {
+    background: #ebe8d7db;
+    }
+button {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: left;
+    background-color: #ffc4dd;
+    border-radius: 10px;
+}
