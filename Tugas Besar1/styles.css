@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-size:cover;
+}
+
+header {
+    background-image: url('Study\ background\ music\ 🎶\ \(\ no\ copyright\).jpeg');
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f1f0f0;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.menu {
+    padding: 20px;
+    text-align: center;
+}
+
+.cake-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cake-item {
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #7d4105;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+}
+
+.cake-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.cake-item h3 {
+    margin: 10px 0 5px;
+}
+
+.about,
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-image: url('Study\ background\ music\ 🎶\ \(\ no\ copyright\).jpeg');
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-image: url('Study\ background\ music\ 🎶\ \(\ no\ copyright\).jpeg');
+}
+
+/* Style untuk meratakan form pembelian */
+.form-pembelian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.form-pembelian h2 {
+    margin-bottom: 20px;
+}
+
+.form-pembelian form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Memberikan jarak antar elemen */
+}
+
+.form-pembelian input,
+.form-pembelian button {
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-pembelian button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.form-pembelian button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image: url('Study\ background\ music\ 🎶\ \(\ no\ copyright\).jpeg');
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azaraa Cookies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Azaraa Cookies</div>
+        <section id="home" class="hero">
+            <h1>Selamat Datang di Azaraa Cookies</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#form-pembelian">Form Pembelian</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu" class="menu">
+        <h2>Menu Cookies</h2>
+        <div class="cake-grid">
+            <div class="cake-item">
+                <img src="ChocoChip.jpg" alt="Chocolate Chip Cookies">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>Satu gigitan cookie choco chip ini dan Anda akan jatuh cinta! Cokelat yang meleleh di mulut, siap memanjakan selera Anda!</p>
+                <p>Harga: Rp 100.000</p>
+                <button onclick="orderCake('Chocolate Chip Cookies')">Pesan Sekarang</button>
+            </div>
+            <div class="cake-item">
+                <img src="Red Velvet.jpg" alt="Red Velvet Cookies">
+                <h3>Red Velvet Cookies</h3>
+                <p>Rasakan kelembutan dan kelezatan cookie red velvet yang menggoda ini. Sempurna untuk menemani momen spesial Anda!</p>
+                <p>Harga: Rp 150.000</p>
+                <button onclick="orderCake('Red Velvet Cookies')">Pesan Sekarang</button>
+            </div>
+            <div class="cake-item">
+                <img src="Lotus.jpg" alt="Lotus Biscoff Cookies">
+                <h3>Lotus Biscoff Cookies</h3>
+                <p>Kombinasi sempurna antara rasa manis dan gurih yang akan membuat setiap gigitan menjadi pengalaman tak terlupakan!</p>
+                <p>Harga: Rp 185.000</p>
+                <button onclick="orderCake('Lotus Biscoff Cookies')">Pesan Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <p>Azaraa Cookies memberikan kelezatan yang tak terlupakan di setiap gigitannya. Cookies di sini dibuat dengan sepenuh hati supaya para pembeli dapat merasakan kasih sayang saat menikmatinya. Coba sekarang dan rasakan perbedaannya!</p>
+    </section>
+
+    <section id="form-pembelian" class="form-pembelian">
+        <h2>Form Pembelian</h2>
+        <form onsubmit="submitForm(event)">
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Alamat" required>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Azaraa Cookies. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
