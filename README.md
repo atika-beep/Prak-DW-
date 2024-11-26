@@ -4,4 +4,6 @@ img url ![Screenshot 2024-10-08 142309](https://github.com/user-attachments/asse
 ![Screenshot 2024-11-04 201125](https://github.com/user-attachments/assets/a07c3432-5c70-4148-bc08-5e66ee6f6dfc)
 ![Screenshot 2024-11-04 201237](https://github.com/user-attachments/assets/27a4524e-599e-4c6a-a9fe-8353bd9e8764)
 ![Screenshot 2024-11-04 201303](https://github.com/user-attachments/assets/376ff70d-b5dc-4fed-a1dd-92ff892020e7)
+![Screenshot 2024-11-26 182034](https://github.com/user-attachments/assets/61bb7c95-42f3-4717-873d-8843a02ec677)
+![Screenshot 2024-11-26 182537](https://github.com/user-attachments/assets/7b17c65b-7695-4eef-ac7e-565c30c2810c)
 
